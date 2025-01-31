@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #d5fddf);
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #ffffff, #d5fddf);
+    color: green;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    height: 70px;
+    margin-right: 15px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Custom Navbar Styles */
+.navbar-custom {
+    font-size: large;
+    background:lightgreen !important; /* Match the header color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #073b07 !important; /* Text color for links */
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: white !important; /* Light green for hover/focus */
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+    color: #073b07 !important; /* Light green for active link */
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: black; /* Toggler icon color */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+    background-color: black; /* Dark icon */
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
